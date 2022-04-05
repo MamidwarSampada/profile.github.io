@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div,
+section,
+span,
+ul,
+li,
+a,
+header {
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li {
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+section {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#home {
+    background-color: #59405C;
+}
+
+#profile {
+    background-color: hsl(209, 79%, 66%);
+}
+
+#tenth {
+    background-color: rgb(58, 159, 167);
+}
+
+#twelth {
+    background-color: #5789CB;
+}
+
+#b-tech {
+    background-color: #2bb5b5;
+}
+
+#certificate {
+    background-color: hsl(209, 79%, 66%);
+}
+
+h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+#profile h1 {
+    position: absolute;
+    top: 47%;
+    left: 28%;
+    color: hsl(219, 18%, 31%)
+}
+
+#profile h2 {
+    position: absolute;
+    top: 18%;
+    left: 17%;
+    font-size: 30px;
+    color: black
+}
+
+#tenth h1 {
+    position: absolute;
+    top: 42%;
+    left: 25%;
+    color: hsl(219, 18%, 31%)
+}
+
+#tenth h2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+    color: black
+}
+
+#twelth h1 {
+    position: absolute;
+    top: 42%;
+    left: 25%;
+    color: hsl(219, 18%, 31%)
+}
+
+#twelth h2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+    color: black
+}
+
+#b-tech h1 {
+    position: absolute;
+    top: 53%;
+    left: 35%;
+    color: hsl(219, 18%, 31%)
+}
+
+#b-tech h2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+    color: black
+}
+
+#certificate h1 {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    color: hsl(219, 18%, 31%)
+}
+
+#certificate h2 {
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    font-size: 30px;
+    color: black
+}
